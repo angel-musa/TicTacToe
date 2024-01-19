@@ -1,23 +1,31 @@
-Java TicTacToe Game with GUI
+# TicTacToe Game in Java
 
-This repository contains a simple TicTacToe game implemented in Java, featuring a graphical user interface (GUI) built using Java Swing's JFrame and components. The game is divided into three main files:
+This repository contains a simple TicTacToe game implemented in Java, featuring a graphical user interface (GUI) using JFrame and Java Swing components.
 
-1. MainMenu.java:
-  Configure the game settings before starting.
-  Choose starting player, number of rounds, player colors, and toggle between dark and light modes.
+## Features
 
-2. GameBoard.java:
-  Play the TicTacToe game on a dynamic game board.
-  Click on tiles to make moves.
-  Display round outcomes (win, tie) and update the scoreboard accordingly.
+- **MainMenu:**
+  - Configure game settings such as player order, rounds, colors, and modes.
 
-3. Scoreboard.java:
-  Display a comprehensive scoreboard after completing the specified number of rounds.
-  View scores for each round and player.
-  Option to exit or start a new game.
+- **GameBoard:**
+  - Play TicTacToe on an interactive game board.
+  - Display round outcomes and update the scoreboard.
 
-Features:
-User-friendly GUI with customizable game settings.
-Interactive gameplay with real-time updates on the game board.
-Score tracking and detailed scoreboard at the end of the game.
-Feel free to explore, modify, and enhance the game. Enjoy playing TicTacToe with a visually appealing Java GUI!
+- **Scoreboard:**
+  - View scores for each round and player.
+  - Option to exit or start a new game after a set number of rounds.
+
+## Usage
+
+1. Compile and run `MainMenu.java` to set game preferences.
+2. Play TicTacToe on the dynamic `GameBoard`.
+3. After the specified rounds, view detailed scores on the `Scoreboard`.
+
+## How to Run
+
+Ensure you have Java and a compatible IDE installed. Download all three files. Compile and run the `MainMenu.java` file to launch the game. 
+
+## Customize
+
+Feel free to explore and modify the code to enhance or adapt the game to your preferences.
+
